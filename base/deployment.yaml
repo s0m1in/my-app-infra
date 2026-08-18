@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nodejs-container
-        image: <您的_DOCKERHUB_帳號>/nodejs-app:latest # 這裡會被自動替換
+        image: kelvin666888/nodejs-app:latest # 這裡會被自動替換
         ports:
         - containerPort: 3000
