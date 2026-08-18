@@ -1,7 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - ../../base
+- ../../base
 images:
-  - name: kelvin666888/nodejs-app
-    newTag: latest # 這個值之後會被 GitHub Actions 自動改掉
+- name: kelvin666888/nodejs-app
+  newName: kelvin666888/nodejs-app
+  newTag: 2ebbd0bc7d170fea462effeaa438c88d07a4254c
