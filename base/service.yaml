@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nodejs-service
+spec:
+  type: NodePort
+  ports:
+  - port: 3000
+    targetPort: 3000
+    nodePort: 30030 # K3s 會直接在外網開 30030 Port 讓您測試網頁
+  selector:
+    app: nodejs-app
