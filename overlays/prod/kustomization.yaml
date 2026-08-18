@@ -5,4 +5,4 @@ resources:
 images:
 - name: kelvin666888/nodejs-app
   newName: kelvin666888/nodejs-app
-  newTag: 2ebbd0bc7d170fea462effeaa438c88d07a4254c
+  newTag: 0c80e385d8a3d25c95cbe222e2c0b12a67d428fe
